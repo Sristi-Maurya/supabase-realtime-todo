@@ -64,11 +64,11 @@ FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user();
 
   Do NOT commit .env.local to GitHub!
 
-5. Run the App
+### 5. Run the App
   npm run dev
   Open http://localhost:3000 in your browser.
 
-6.Usage
+### 6.Usage
 
   Sign up or log in.
   Add todos, assign them to users, and set due dates.
@@ -76,11 +76,11 @@ FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user();
 
   You’ll get a real-time notification when a task is assigned to you.
 
-7. Environment Variables
+### 7. Environment Variables
   The app needs your Supabase project URL and anon key.
   These should be provided in your .env.local file.
 
-8.Notes
+### 8.Notes
   All database changes are managed through the Supabase dashboard.
   For any issues, check the browser console or ask for help!
 
